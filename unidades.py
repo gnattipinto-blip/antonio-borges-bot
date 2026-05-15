@@ -2,8 +2,9 @@ import os
 import openpyxl
 from openpyxl.styles import PatternFill
 
-PLANILHA = os.path.join(os.path.dirname(__file__), "Unidades_AntonioBorges.xlsx")
-
+import glob
+arquivos = glob.glob(os.path.join(os.path.dirname(file_), "Unidades*.xlsx"))
+PLANILHA = arquivos[0] if _arquivos else os.path.join(os.path.dirname(file_), "Unidades_AntonioBorges.xlsx")
 CORES = {
     "DISPONÍVEL": PatternFill("solid", fgColor="C6EFCE"),
     "RESERVADO":  PatternFill("solid", fgColor="FFEB9C"),
