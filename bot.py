@@ -15,7 +15,7 @@ logging.basicConfig(
     level=logging.INFO
 )
 
-TOKEN = os.environ.get("TELEGRAM_TOKEN", "")
+TOKEN = "8955757103:AAHShN1V8jD7eJbUh5lFo1p0X7uKSLW8fwo"
 ADMINS_RAW = os.environ.get("ADMIN_IDS", "")
 ADMIN_IDS = [int(x.strip()) for x in ADMINS_RAW.split(",") if x.strip()]
 
