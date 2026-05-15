@@ -167,7 +167,7 @@ app.add_handler(CommandHandler(“reservar”, cmd_reservar))
 app.add_handler(CommandHandler(“vender”, cmd_vender))
 app.add_handler(CommandHandler(“liberar”, cmd_liberar))
 app.add_handler(MessageHandler(filters.TEXT & ~filters.COMMAND, resposta_livre))
-print(“✅ Bot rodando…”)
+print(“✅ Bot rodandoV2…”)
 app.run_polling()
 
 if *name* == “*main*”:
