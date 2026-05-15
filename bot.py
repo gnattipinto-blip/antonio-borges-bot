@@ -5,7 +5,7 @@ from telegram import Update
 from telegram.ext import ApplicationBuilder, CommandHandler, MessageHandler, filters, ContextTypes
 
 logging.basicConfig(level=logging.INFO)
-TOKEN = “8955757103:AAHShN1V8jD7eJbUh5lFo1p0X7uKSLW8fwo”
+TOKEN = os.environ.get("TELEGRAM_TOKEN")
 
 ADMINS_RAW = os.environ.get(“ADMIN_IDS”, “”)
 ADMIN_IDS = [int(x.strip()) for x in ADMINS_RAW.split(”,”) if x.strip()]
