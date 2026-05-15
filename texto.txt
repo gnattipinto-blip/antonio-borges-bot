@@ -1,0 +1,65 @@
+Claro! Aqui está o **guia completo em texto** para você copiar, colar em qualquer editor (Word, Google Docs, etc.) e formatar como preferir:
+
+---
+
+# 📂 **GUIA PRÁTICO: COMO ORGANIZAR PASTAS NO GOOGLE DRIVE**  
+
+## **1. ESTRUTURA BÁSICA RECOMENDADA**  
+```  
+📁 Pasta Principal (Ex: "Trabalho 2024")  
+   ├── 📁 Projetos  
+   │    ├── 📁 Projeto A  
+   │    └── 📁 Projeto B  
+   ├── 📁 Financeiro  
+   │    ├── 📁 Notas Fiscais  
+   │    └── 📁 Relatórios  
+   ├── 📁 Pessoal  
+   └── 📁 Backup  
+```  
+
+## **2. PADRONIZE NOMES DE ARQUIVOS**  
+- **Use datas**: `AAAA-MM-DD` (Ex: `2024-07-20_Relatório.pdf`).  
+- **Adicione tags**:  
+  - `[PDF]` para documentos.  
+  - `[URGENTE]` para prioridades.  
+  - `[CLIENTE]` para arquivos específicos.  
+
+## **3. CLASSIFIQUE PASTAS COM CORES E ESTRELAS**  
+- **Como fazer**:  
+  - Clique com o botão direito na pasta → **"Alterar cor"**.  
+  - Use **★ Estrela** (menu "Adicionar à estrelas") para pastas frequentes.  
+
+## **4. ORGANIZE PDFs EM SUBCATEGORIAS**  
+```  
+📁 PDFs  
+   ├── 📁 Urgentes  
+   ├── 📁 Para Revisar  
+   ├── 📁 Aprovados  
+   └── 📁 Arquivados  
+```  
+
+## **5. FERRAMENTAS ÚTEIS DO GOOGLE DRIVE**  
+- **Busca avançada**:  
+  - `type:pdf` → Filtra apenas PDFs.  
+  - `before:2023-12-31` → Encontra arquivos antigos.  
+- **Atalhos**: Crie links rápidos para pastas (botão "Adicionar atalho ao Drive").  
+
+## **6. DICAS DE MANUTENÇÃO**  
+- **Limpeza mensal**: Delete arquivos duplicados ou sem uso.  
+- **Backup automático**: Use ferramentas como **Google Backup and Sync**.  
+
+## **7. EXEMPLO PRÁTICO (NOMENCLATURA)**  
+- **Antes**: `Relatório.pdf`  
+- **Depois**: `[CLIENTE]_RelatórioFinanceiro_2024-07-20.pdf`  
+
+---  
+
+### **📌 PARA IMPRIMIR:**  
+1. Copie este texto.  
+2. Cole em um editor (Google Docs, Word, etc.).  
+3. Ajuste fontes/cores se necessário.  
+4. Salve como PDF (**Arquivo → Fazer download → PDF**).  
+
+Se quiser um **modelo pré-formatado** (com tabelas, checklist, etc.), me avise! Posso enviar em outros formatos (TXT, Markdown, etc.). 😊  
+
+✂ **Dica extra**: Use este guia como base e personalize com suas próprias regras!
