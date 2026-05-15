@@ -4,8 +4,7 @@ import unicodedata
 from telegram import Update
 from telegram.ext import ApplicationBuilder, CommandHandler, MessageHandler, filters, ContextTypes
 
-logging.basicConfig(format=”%(asctime)s - %(levelname)s - %(message)s”, level=logging.INFO)
-
+logging.basicConfig(level=logging.INFO)
 TOKEN = “8955757103:AAHShN1V8jD7eJbUh5lFo1p0X7uKSLW8fwo”
 
 ADMINS_RAW = os.environ.get(“ADMIN_IDS”, “”)
