@@ -112,11 +112,15 @@ async def cmd_liberar(update, ctx):
 
 async def resposta_livre(update, ctx):
     texto = (update.message.text or "").lower()
-    palavras_disp = ["disponível", "disponíveis", "livre", "livres", "quais", "tem"]
-    palavras_resumo = ["resumo", "quantas", "total"]
-    if any(p in texto for p in palavras_disp):
+    import unicodedata
+    def sem_acento(s):
+        return ''.join(c for c in unicodedata.normalize('NFD', s) if unicodedata.category(c) != 'Mn')
+    texto_simples = sem_acento(texto)
+    palavras_disp = ["disponivel", "disponiveis", "livre", "livres", "quais", "tem", "sobrou", "qual", "ta"]
+    palavras_resumo = ["resumo", "quantas", "total", "quanto", "vendida", "vendidas"]
+    if any(p in texto_simples for p in palavras_disp):
         await cmd_disponiveis(update, ctx)
-    elif any(p in texto for p in palavras_resumo):
+    elif any(p in texto_simples for p in palavras_resumo):
         await cmd_resumo(update, ctx)
     else:
         await update.message.reply_text("Use /disponiveis, /todas ou /resumo.")
